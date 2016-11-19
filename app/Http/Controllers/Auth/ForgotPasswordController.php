@@ -28,6 +28,7 @@ class ForgotPasswordController extends Controller
     public function __construct()
     {
         //test bisa pull gak
+        //gak bisa pull -- yak pa carae
         $this->middleware('guest');
     }
 }
